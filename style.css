@@ -1,0 +1,95 @@
+body{
+    background-color:green;
+    margin: 0px;
+ }   
+    #Header {
+        background-color: cornflowerblue;
+        display: flex;
+
+    }
+
+    b {
+        background-color: black;
+    }
+
+    .header_h1 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        text-decoration: underline double black;
+    }
+
+    p {
+        color: aliceblue;
+        font-size: 26px;
+    }
+
+    /* #section {
+        background-color: rgb(174, 255, 0);
+        padding: 50px 30px 50px 60px;
+        margin: 20px 50px 80px 40px;
+    } */
+
+    #footer {
+        background-color: rgb(238, 64, 11);
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 40px;
+        padding-left: 60px;
+    }
+.logo{
+    background-color: white;
+    /* background-image:url(img/koenigsegg-gemera.jpg); */
+    width: 25%;
+    height: 75px;
+    /* background-position: center; */
+    /* position:fixed; */
+    
+
+}
+.menu{
+    background-color: #fff;
+    width: 60%;
+    height: 75px;
+    display:inline;
+}
+UL{
+    margin-top: 30PX;
+    margin-left: 20PX;
+}
+li{
+    display: inline;
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: black;
+}
+.secn{
+    background-color: white;
+    width: 20%;
+    height: 75px;
+}
+.LOGO_IMG{
+    width: 90px;
+padding-left: 30px;    }
+.header_btn{
+    background-color: rgb(11, 159, 246);
+    color: white;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    border-radius: 50px;
+
+}
+.banner{
+    background-image: url(../img/koenigsegg-gemera.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+}
